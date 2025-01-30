@@ -17,7 +17,7 @@ class ReviewsTestCase(TestCase):
             movie=self.movie,
             user=self.user,
             review='Great movie!',
-            rating=5
+            rating=5,
         )
 
     def test_review_creation(self):
