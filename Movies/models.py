@@ -21,4 +21,4 @@ class Reviews(models.Model):
     modified_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.movie.title
+        return self.movie.title + ' - ' + self.user.username + ' - ' + self.rating + ' - ' + self.created_at + ' - ' + self.review
