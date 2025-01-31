@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
-from .models import Reviews, Movies
+from .models import Review, Movie
 
 # Create your views here.
 
@@ -30,9 +30,9 @@ def create_review(request):
         rating = request.POST['rating']
 
         # Find movie
-        movie = Movies.objects.get(id=movie_id)
+        movie = Movie.objects.get(id=movie_id)
         # Create review
-        review = Reviews.objects.create(
+        review = Review.objects.create(
             movie=movie,
             user=request.user,
             review=review,
@@ -52,7 +52,7 @@ def create_review(request):
         }, status=201)
     except KeyError as e:
         return JsonResponse({"error": f"Missing key: {e}"}, status=400)
-    except Movies.DoesNotExist as e:
+    except Movie.DoesNotExist as e:
         return JsonResponse({"error": f"Movie not found"}, status=404)
     except Exception as e:
         print(e)
@@ -90,7 +90,7 @@ def update_review(request):
     if request.method == "GET":
         try:
             review_id = request.GET['review_id']
-            review = Reviews.objects.get(id=review_id)
+            review = Review.objects.get(id=review_id)
             return JsonResponse({
                 "review": {
                     "review_id": review.id,
@@ -101,7 +101,7 @@ def update_review(request):
             }, status=200)
         except KeyError as e:
             return JsonResponse({"error": f"Missing key: {e}"}, status=400)
-        except Reviews.DoesNotExist as e:
+        except Review.DoesNotExist as e:
             return JsonResponse({"error": f"Review not found"}, status=404)
         except Exception as e:
             return JsonResponse({"error": "Internal server error"}, status=500)
@@ -109,7 +109,7 @@ def update_review(request):
     elif request.method == "POST":
         try:
             review_id = request.POST['review_id']
-            review = Reviews.objects.get(id=review_id)
+            review = Review.objects.get(id=review_id)
             review.review = request.POST['review']
             review.rating = request.POST['rating']
             review.save()
@@ -118,7 +118,7 @@ def update_review(request):
             }, status=200)
         except KeyError as e:
             return JsonResponse({"error": f"Missing key: {e}"}, status=400)
-        except Reviews.DoesNotExist as e:
+        except Review.DoesNotExist as e:
             return JsonResponse({"error": f"Review not found"}, status=404)
         except Exception as e:
             return JsonResponse({"error": "Internal server error"}, status=500)
@@ -137,7 +137,7 @@ response: TBD
 @login_required
 def delete_review(request):
     try:
-        review = Reviews.objects.get(id=request.POST['review_id'])
+        review = Review.objects.get(id=request.POST['review_id'])
         review.delete()
         return JsonResponse({"message": "Review deleted successfully"}, status=200)
     except KeyError as e:
