@@ -6,24 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="96dbd717-8822-467e-b52f-d7171a74a0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/asgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,11 +41,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.CS2340Project1.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ReviewBackend__DavidGu",
-    "last_opened_file_path": "/Users/davidgu/Desktop/College/CS 2340/CS2340Project1",
+    "git-widget-placeholder": "chengyuan",
+    "last_opened_file_path": "/Users/chengyuanli/Desktop/CS2340/movieProj/CS2340Project1/moviesstore/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +55,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/moviesstore/templates" />
+      <recent name="$PROJECT_DIR$/moviesstore/static/img" />
+      <recent name="$PROJECT_DIR$/moviesstore/static/css" />
+      <recent name="$PROJECT_DIR$/home" />
+      <recent name="$PROJECT_DIR$/home/templates/home" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CS2340Project1" type="Python.DjangoServer" factoryName="Django server">
       <module name="CS2340Project1" />
@@ -73,6 +74,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
