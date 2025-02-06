@@ -1,17 +1,32 @@
-{% extends 'base.html' %}
-{% block content %}
-{% load static %}
+{% extends 'base.html' %} {% block content %} {% load static %}
 <div class="p-3">
   <div class="container">
     <div class="row mt-3">
       <div class="col-md-6 mx-auto mb-3">
         <h2>About</h2>
         <hr />
-        <p>At GT Movies Store, we know how demanding life at Georgia Tech can be! That’s why we offer a vast digital library of classic, romance, and other films—perfect for unwinding after a long day of coding, exams, or group projects. Browse our extensive collection, featuring the latest releases, timeless classics, and hidden gems. With just a few clicks, you can rent or purchase your favorite movies and instantly stream them in high-definition.</p>
-        <p>Enjoy the convenience of our digital platform on your preferred device—whether it’s your laptop in the library, a tablet in your dorm, or a smartphone on the go. Our intuitive search and recommendation features make finding your next movie night pick easier than ever.</p>
+        <p>
+          At GT Movies Store, we know how demanding life at Georgia Tech can be!
+          That’s why we offer a vast digital library of classic, romance, and
+          other films—perfect for unwinding after a long day of coding, exams,
+          or group projects. Browse our extensive collection, featuring the
+          latest releases, timeless classics, and hidden gems. With just a few
+          clicks, you can rent or purchase your favorite movies and instantly
+          stream them in high-definition.
+        </p>
+        <p>
+          Enjoy the convenience of our digital platform on your preferred
+          device—whether it’s your laptop in the library, a tablet in your dorm,
+          or a smartphone on the go. Our intuitive search and recommendation
+          features make finding your next movie night pick easier than ever.
+        </p>
       </div>
       <div class="col-md-6 mx-auto mb-3 text-center">
-        <img src="{% static 'img/about.jpg' %}" class="max-width-100" alt="about" />
+        <img
+          src="{% static 'img/about.jpg' %}"
+          class="max-width-100"
+          alt="about"
+        />
       </div>
     </div>
   </div>
