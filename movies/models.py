@@ -22,6 +22,3 @@ class Review(models.Model):
         on_delete=models.CASCADE)
     def __str__(self):
         return str(self.id) + ' - ' + self.movie.name
-
-    def __str__(self):
-        return self.movie.title + ' - ' + self.user.username + ' - ' + self.rating + ' - ' + self.created_at + ' - ' + self.review
