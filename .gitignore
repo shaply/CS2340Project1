@@ -16,7 +16,7 @@ wheels/
 .env
 venv/
 env/
-.venv/
+
 
 # Django stuff:
 *.log
