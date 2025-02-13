@@ -16,6 +16,7 @@ wheels/
 .env
 venv/
 env/
+.venv/
 
 
 # Django stuff:
@@ -23,5 +24,7 @@ env/
 local_settings.py
 
 # IDE-specific files
-.idea/
+
 .vscode/
+.idea/
+
