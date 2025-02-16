@@ -65,6 +65,7 @@ def orders(request):
         {'template_data': template_data})
     
 
+# https://dev.to/earthcomfy/django-reset-password-3k0l
 class ResetPasswordView(SuccessMessageMixin, PasswordResetView):
     template_name = 'accounts/reset_password.html'
     email_template_name = 'reset_password_email/password_reset_email.html'
