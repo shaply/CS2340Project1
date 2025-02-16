@@ -35,18 +35,19 @@ def signup(request):
             fields = ('username', 'email', 'password1', 'password2')
 
     template_data = {'title': 'Sign Up'}
-
-    if request.method == 'POST':
+    if request.method == 'GET':
+        template_data['form'] = CustomUserCreationForm()
+        return render(request, 'accounts/signup.html',
+            {'template_data': template_data})
+    elif request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('login')
+            return redirect('home.index')
         else:
             template_data['form'] = form
-    else:
-        template_data['form'] = CustomUserCreationForm()
-
-    return render(request, 'accounts/signup.html', {'template_data': template_data})
+            return render(request, 'accounts/signup.html',
+                          {'template_data': template_data})
 
 
 
