@@ -107,4 +107,4 @@ A notable challenge occurred during midterms, leading to scheduling conflicts an
 
 Acknowledgments
 
-We extend our gratitude to all team members and love for David <3 for their dedication and hard work. 
+We extend our gratitude to all team members for their dedication and hard work. 
