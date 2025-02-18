@@ -84,7 +84,7 @@ python manage.py collectstatic
 * After configuration, reload the web app from the PythonAnywhere dashboard to apply changes.
 * For detailed deployment instructions, refer to the PythonAnywhere deployment guide.
 
-Development Process
+# Development Process
 
 Our team followed the Scrum framework, organizing development into two-week sprints and completing approximately ten user stories each week. The Scrum Master assigned tasks via Trello, and team members provided daily progress updates. Post-development, we conducted playtesting sessions to identify and resolve bugs or UI issues.
 
@@ -92,50 +92,19 @@ Initially, we worked on separate branches but faced challenges due to task depen
 
 A notable challenge occurred during midterms, leading to scheduling conflicts and inconsistent contributions. Despite this, team member David Gu successfully debugged a major issue in Chapter 9, maintaining our momentum. Retrospective meetings allowed us to reflect on such challenges and refine our approach for smoother collaboration in subsequent sprints.
 
-Technologies Used
+# Technologies Used
 
-Backend: Django 5, utilizing the Model-View-Template (MVT) architecture.
+* Backend: Django 5, utilizing the Model-View-Template (MVT) architecture.
 
-Database: SQLite for development; configurable for other databases in production.
+* Database: SQLite for development; configurable for other databases in production.
 
-Frontend: HTML, CSS, JavaScript.
+* Frontend: HTML, CSS, JavaScript.
 
-Deployment: Hosted on PythonAnywhere.
+* Deployment: Hosted on PythonAnywhere.
 
-Version Control: Git and GitHub for code management and collaboration.
+* Version Control: Git and GitHub for code management and collaboration.
 
-Contributing
-
-We welcome contributions to enhance GT Movies Store. To contribute:
-
-Fork the Repository:
-
-Click the "Fork" button on the GitHub page.
-
-Create a Feature Branch:
-
-git checkout -b feature/YourFeatureName
-
-Commit Your Changes:
-
-git commit -m "Add Your Feature"
-
-Push to Your Fork:
-
-git push origin feature/YourFeatureName
-
-Open a Pull Request:
-
-Navigate to the original repository and click "New Pull Request".
-
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 
-We extend our gratitude to all team members for their dedication and hard work. Special thanks to our Scrum Master for effective task management and to David Gu for resolving critical issues during development.
-
-Note: This README provides an overview of the GT Movies Store project. For detailed documentation and updates, please refer to the repository.
+We extend our gratitude to all team members and love for David <3 for their dedication and hard work. 
