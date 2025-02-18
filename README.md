@@ -15,33 +15,27 @@ Installation
 
 To set up the GT Movies Store locally, follow these steps:
 
-Clone the Repository:
-
+# Clone the Repository:
 git clone https://github.com/shaply/CS2340Project1.git
 cd CS2340Project1
 
-Set Up a Virtual Environment:
-
+# Set Up a Virtual Environment:
 python3 -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
-Install Dependencies:
-
+# Install Dependencies:
 pip install -r requirements.txt
 
-Apply Migrations:
-
+# Apply Migrations:
 python manage.py migrate
 
-Create a Superuser (for accessing the admin panel):
-
+# Create a Superuser (for accessing the admin panel):
 python manage.py createsuperuser
 
-Run the Development Server:
-
+# Run the Development Server:
 python manage.py runserver
 
-Access the application at http://127.0.0.1:8000/.
+# Access the application at http://127.0.0.1:8000/.
 
 Deployment
 
