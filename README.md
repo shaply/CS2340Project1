@@ -1,5 +1,5 @@
 # CS2340Project1
-GT Movies Store
+*GT Movies Store*
 
 GT Movies Store is a web application that offers users a seamless experience for browsing, purchasing, and reviewing movies. Built with Django, this platform provides an intuitive and responsive interface, ensuring accessibility across various devices.
 
