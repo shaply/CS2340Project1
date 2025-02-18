@@ -4,18 +4,12 @@ GT Movies Store
 GT Movies Store is a web application that offers users a seamless experience for browsing, purchasing, and reviewing movies. Built with Django, this platform provides an intuitive and responsive interface, ensuring accessibility across various devices.
 
 Features
-
-User Registration and Authentication: Users can create accounts, log in securely, and manage their profiles.
-
-Movie Browsing and Search: Explore a vast collection of movies with advanced search and filter options.
-
-Shopping Cart and Order Management: Add movies to a cart, proceed to checkout, and track order history.
-
-Review System: Write, edit, and delete reviews to share opinions and help others make informed decisions.
-
-Responsive Design: Optimized for desktops, tablets, and mobile devices.
-
-Password Reset Functionality: Users can reset their passwords to maintain account security.
+* User Registration and Authentication: Users can create accounts, log in securely, and manage their profiles.
+* Movie Browsing and Search: Explore a vast collection of movies with advanced search and filter options.
+* Shopping Cart and Order Management: Add movies to a cart, proceed to checkout, and track order history.
+* Review System: Write, edit, and delete reviews to share opinions and help others make informed decisions.
+* Responsive Design: Optimized for desktops, tablets, and mobile devices.
+* Password Reset Functionality: Users can reset their passwords to maintain account security.
 
 Installation
 
