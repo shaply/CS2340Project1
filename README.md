@@ -16,8 +16,9 @@ Installation
 To set up the GT Movies Store locally, follow these steps:
 
 # Clone the Repository:
-git clone https://github.com/shaply/CS2340Project1.git
-cd CS2340Project1
+``` bash
+git clone https://github.com/shaply/CS2340Project1.git ```
+``` bash cd CS2340Project1 ```
 
 # Set Up a Virtual Environment:
 python3 -m venv env
