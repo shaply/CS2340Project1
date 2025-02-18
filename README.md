@@ -105,6 +105,6 @@ A notable challenge occurred during midterms, leading to scheduling conflicts an
 * Version Control: Git and GitHub for code management and collaboration.
 
 
-Acknowledgments
+# Acknowledgments
 
 We extend our gratitude to all team members for their dedication and hard work. 
