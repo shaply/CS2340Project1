@@ -11,7 +11,7 @@ Features
 * Responsive Design: Optimized for desktops, tablets, and mobile devices.
 * Password Reset Functionality: Users can reset their passwords to maintain account security.
 
-Watch our Demo Video (here)[https://www.youtube.com/watch?v=IQyVzN6H_VM]!
+Watch our Demo Video [https://www.youtube.com/watch?v=IQyVzN6H_VM](here)!
 ```bash
 https://www.youtube.com/watch?v=IQyVzN6H_VM
 ```
