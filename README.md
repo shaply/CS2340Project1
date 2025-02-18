@@ -11,6 +11,11 @@ Features
 * Responsive Design: Optimized for desktops, tablets, and mobile devices.
 * Password Reset Functionality: Users can reset their passwords to maintain account security.
 
+Watch our Demo Video here!
+```bash
+https://www.youtube.com/watch?v=IQyVzN6H_VM
+```
+
 Installation
 
 To set up the GT Movies Store locally, follow these steps:
