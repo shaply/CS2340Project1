@@ -22,23 +22,35 @@ cd CS2340Project1
 ```
 
 # Set Up a Virtual Environment:
+```bash
 python3 -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
+```
 
 # Install Dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 # Apply Migrations:
+```bash
 python manage.py migrate
+```
 
 # Create a Superuser (for accessing the admin panel):
+```bash
 python manage.py createsuperuser
+```
 
 # Run the Development Server:
+```bash
 python manage.py runserver
+```
 
-# Access the application at http://127.0.0.1:8000/.
-
+# Access the application at 
+```bash
+http://127.0.0.1:8000/.
+```
 Deployment
 
 GT Movies Store is deployed on PythonAnywhere. To deploy your own instance:
