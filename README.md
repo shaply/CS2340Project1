@@ -37,11 +37,6 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-# Create a Superuser (for accessing the admin panel):
-```bash
-python manage.py createsuperuser
-```
-
 # Run the Development Server:
 ```bash
 python manage.py runserver
@@ -55,50 +50,39 @@ Deployment
 
 GT Movies Store is deployed on PythonAnywhere. To deploy your own instance:
 
-Upload Your Code to PythonAnywhere:
-
-Sign in to your PythonAnywhere account.
-
-Open a Bash console and clone your repository:
-
+* Upload Your Code to PythonAnywhere:
+* Sign in to your PythonAnywhere account.
+* Open a Bash console and clone your repository:
+```bash
 git clone https://github.com/yourusername/your-repo.git
-
-Set Up a Virtual Environment on PythonAnywhere:
-
+```
+* Set Up a Virtual Environment on PythonAnywhere:
+```bash
 mkvirtualenv --python=/usr/bin/python3.10 yourenv
-
-Activate the virtual environment and install dependencies:
-
+```
+* Activate the virtual environment and install dependencies:
+```bash
 workon yourenv
 pip install -r requirements.txt
-
-Configure the Web App:
-
-In the PythonAnywhere dashboard, navigate to the "Web" tab.
-
-Add a new web app and choose "Manual configuration" with the appropriate Python version.
-
-Set the virtual environment and project paths.
-
-Edit the WSGI configuration file to point to your Django project's WSGI application.
-
-Set Up Static Files and Database:
-
-Run migrations:
-
+```
+* Configure the Web App:
+* In the PythonAnywhere dashboard, navigate to the "Web" tab.
+* Add a new web app and choose "Manual configuration" with the appropriate Python version.
+* Set the virtual environment and project paths.
+* Edit the WSGI configuration file to point to your Django project's WSGI application.
+* Set Up Static Files and Database:
+* Run migrations:
+```bash
 python manage.py migrate
-
-Collect static files:
-
+```
+* Collect static files:
+```bash
 python manage.py collectstatic
-
-Configure static files in the PythonAnywhere "Web" tab.
-
-Reload the Web App:
-
-After configuration, reload the web app from the PythonAnywhere dashboard to apply changes.
-
-For detailed deployment instructions, refer to the PythonAnywhere deployment guide.
+```
+* Configure static files in the PythonAnywhere "Web" tab.
+* Reload the Web App:
+* After configuration, reload the web app from the PythonAnywhere dashboard to apply changes.
+* For detailed deployment instructions, refer to the PythonAnywhere deployment guide.
 
 Development Process
 
